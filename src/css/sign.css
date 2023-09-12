@@ -1,0 +1,142 @@
+
+
+/* 
+
+   .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(255, 249, 241);
+  }
+  
+  .signin-card {
+    width: 300px; 
+    text-align: left; 
+    padding: 20px; 
+    background-color: transparent; 
+    border: 1px solid #000000; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    height: 500px;
+    
+  }
+  .text{
+    font-size: 20px;
+  }
+  .p{
+    text-align: right;
+    font-size: 14px;
+    color: rgb(154, 154, 154);
+  }
+   */
+
+
+   .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(255, 249, 241);
+  }
+  
+  .signin-card {
+    width: 300px; /* Adjust the width as needed */
+    text-align: left;
+    padding: 20px;
+    background-color: transparent;
+    border: 1px solid #000000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 400px;
+    /* display: flex;  */
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+  }
+  
+  .top-right {
+    font-size: 14px;
+    color: rgb(154, 154, 154);
+    align-self: flex-end; 
+    margin-top: -20px; /* Adjust as needed for spacing */
+    text-align: right;
+    /* display: flex; */
+    cursor: pointer;
+  }
+  .top-right:hover{
+    color: #000;
+  }
+  
+  .text {
+    font-size: 20px;
+    /* margin-right: -40px; */
+  }
+  
+
+  /* Existing CSS styles */
+
+.input-wrapper {
+
+    /* display: flex; */
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 30px; /* Adjust as needed for spacing between inputs */
+  }
+  
+  .input {
+    border: none;
+    border-bottom: 1px solid #000; 
+    width: 100%;
+    padding: 5px 0; 
+    background-color: transparent;
+    color: rgb(160, 160, 160) ;
+  }
+  
+  .divider{
+    text-align: right;
+    color: rgb(160, 160, 160);
+    font-size: 13px;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  .divider:hover{
+    color: #000;
+  }
+ 
+  .but{
+    width: 100%;
+    border-radius: 50px;
+    background-color: #000;
+    color: white;
+    box-shadow:0 6px 10px rgba(0, 0, 0, 0.1) ;
+  }
+
+  .s{
+    text-align: center;
+    font-size: 13px;
+  
+  }
+
+  .ft{
+    background-color: transparent;
+    border-color: #000;
+   border-radius: 15px;
+    justify-content: space-around;
+    /* margin-left: 2px; */
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+   
+  }
+
+  .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    color: #000; /* Icon color */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 999; /* Make sure it's above other elements */
+  }
+  
