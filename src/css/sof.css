@@ -51,7 +51,7 @@ transform: translateY(-15px);
   }
   @media(max-width:576px){
     .page-container{
-      height: 250vh;
+      height: 300vh;
     }
   }
   
@@ -65,7 +65,8 @@ transform: translateY(-15px);
     margin-top: 10px;
   }
   .sof:hover{
-    color: rgb(153, 153, 153);
+    /* color: rgb(153, 153, 153); */
+    color: rgb(123, 135, 186);
   }
   
   .card-sof {
@@ -210,7 +211,8 @@ cursor: pointer;
     margin-top: 30px; 
   }
   .p-sof:hover{
-    color: rgb(131, 125, 125);
+    /* color: rgb(131, 125, 125); */
+    color: rgb(81, 114, 192);
   }
 
   .sof-c {

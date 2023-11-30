@@ -14,7 +14,7 @@
 }
 @media(max-width:576px){
     .cont{
-        height: 280vh;
+        height: 350vh;
     }
 }
 
@@ -38,7 +38,8 @@
     
 }
 .t:hover{
-    color: rgb(0, 0, 0);
+    /* color: rgb(0, 0, 0); */
+    color: rgb(204, 180, 167);
 }
 
 .p{
